@@ -167,39 +167,4 @@
   }
   
 
-  /**MEDIA**/
-
-  @media (max-width: 767px)
-  {
-  .box-grid {
-    grid-template-columns: repeat(1,minmax(0,1fr));
-    gap: 24px;
-    padding: 0 15px;
-}
-
-.img-grid {
-
-  flex-direction: column;
-}
-
-h1 {
-  font-size: 36px;
-  line-height: 52px;
-  }
-  .container {
-    box-sizing: border-box;
-}
-}
-
-@media (max-width: 500px)
-{
-
-  .container {
-    padding: 60px 15px 22px;
-  }
-
-h1 {
-    font-size: 28px;
-    line-height: 36px;
-}
-}
+ 
